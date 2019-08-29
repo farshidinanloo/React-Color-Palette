@@ -1,0 +1,46 @@
+{
+	"name": "color-1",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@material-ui/core": "^4.3.2",
+		"@material-ui/icons": "^4.2.1",
+		"@material-ui/styles": "^4.3.0",
+		"chroma-js": "^2.0.4",
+		"emoji-mart": "^2.11.1",
+		"gh-pages": "^2.1.1",
+		"rc-slider": "^8.6.13",
+		"react": "^16.9.0",
+		"react-color": "^2.17.3",
+		"react-copy-to-clipboard": "^5.0.1",
+		"react-dom": "^16.9.0",
+		"react-material-ui-form-validator": "^2.0.9",
+		"react-router-dom": "^5.0.1",
+		"react-scripts": "3.1.1",
+		"react-sortable-hoc": "^1.10.1",
+		"react-transition-group": "^4.2.2"
+	},
+	"homepage": "https://farshidinanloo.github.io/React-Color-Palette",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"deploy": "gh-pages -d build"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
