@@ -26,7 +26,7 @@ const styles = {
 const DraggableColorList = props => {
 	const { colors, removeColor } = props;
 	return (
-		<TransitionGroup style={{ height: '100%' }}>
+		<TransitionGroup style={{ height: '100%', overflowY:'auto' }}>
 			{colors.map((color, i) => (
 				<CSSTransition key={color.name} classNames='fade' timeout={500}>					
 					<DraggableColorBox
